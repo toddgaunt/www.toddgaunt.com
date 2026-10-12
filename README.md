@@ -7,7 +7,7 @@ directory.
 
 ## Deployment Details
 The primary deployment is currently hosted on a Fedora Digital Ocean droplet.
-This costs around $5 a month and the scripts in this folder are for managing
+This costs around $7 a month and the scripts in this folder are for managing
 that droplet.
 
 - nftables.conf: configures the firewall for the droplet to allow for port 443 to
@@ -21,4 +21,4 @@ that droplet.
   should be run every couple of months, but should eventually be replaced with
   just certbot, which I'm not sure why it isn't working properly. UPDATE:
   certbot is working properly, however the server doesn't reload the newly
-  issued certificates automatically
+  issued certificates automatically.

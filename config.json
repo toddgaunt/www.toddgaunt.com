@@ -19,8 +19,8 @@
 	"network": {
 		"port": 4430,
 		"tls": {
-			"cert": "/etc/letsencrypt/live/www.bastionburrow.com/fullchain.pem",
-			"key":  "/etc/letsencrypt/live/www.bastionburrow.com/privkey.pem"
+			"cert": "/etc/letsencrypt/live/toddgaunt.com/fullchain.pem",
+			"key":  "/etc/letsencrypt/live/toddgaunt.com/privkey.pem"
 		}
 	}
 }
